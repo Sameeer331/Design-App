@@ -1,0 +1,438 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5c768f;
+  padding: 20px;
+  color: white;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #e2e8f0;
+}
+
+.hero .left {
+  max-width: 50%;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f8570a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.hero button:hover {
+  background-color: #555;
+}
+
+.hero button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+.hero .right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sponsors Section */
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.sponsors img {
+  max-width: 150px;
+  height: auto;
+}
+
+/* First Content Section */
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #fefefe;
+}
+
+.content .left, .content .right {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.content .left img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content .left h3 {
+  font-size: 24px; /* Adjust font size for .left h3 if needed */
+}
+
+.content .left p {
+  font-size: 16px; /* Adjust font size for .left p if needed */
+}
+
+.content .right img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.content button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: #f8570a;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+
+/* Styles for buttons */
+.arrow-button {
+  padding: 40px;
+  background-color: #f8570a;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+
+/* Additional Content Section */
+.content-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #e2e8f0;
+}
+
+.content-two .left {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.content-two h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content-two p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.content-two button {
+  padding: 10px 20px;
+  background-color: #f8570a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.content-two button:hover {
+  background-color: #555;
+}
+
+.content-two button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+.content-two .right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center Cards Section */
+.center-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.center-cards .card {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.center-cards .card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.center-cards .card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.center-cards .card button {
+  padding: 10px 20px;
+  background-color: #f8570a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.center-cards .card button:hover {
+  background-color: #555;
+}
+
+.center-cards .card button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+/* Do Better Work Section */
+.do-better-work {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #e2e8f0;
+}
+
+.do-better-work .left {
+  max-width: 40%;
+}
+
+.do-better-work h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.do-better-work p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.do-better-work button {
+  padding: 10px 20px;
+  background-color: #f8570a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.do-better-work button:hover {
+  background-color: #555;
+}
+
+.do-better-work button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+.do-better-work .right {
+  display: flex;
+  gap: 15px;
+}
+
+.do-better-work .right img {
+  width: 300px;
+  height: auto;
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.newsletter h3 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #f8570a;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+ 
+}
+
+.newsletter button:hover {
+  background-color: #aaacee;
+}
+
+.newsletter button img {
+  margin-left: 10px;
+  width: 16px;
+  height: auto;
+}
+
+/* Footer Section */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #5c768f;
+  color: white;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      flex-direction: column;
+  }
+
+  .hero .left, .hero .right {
+      flex-basis: 100%;
+      text-align: center;
+  }
+
+  .content {
+      flex-direction: column;
+  }
+
+  .content .left, .content .right {
+      flex-basis: 100%;
+      text-align: center;
+  }
+}
+
+
+
+
+  
+
+  
+  
